@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<namelist group="Фильмы">
+		<title>"Миллиард"</title>
+		<years>2019г.</years>
+	</namelist>
+	<namelist group="Фильмы">
+		<title>"Лёд 2"</title>
+		<years>2020г.</years>
+	</namelist>
+	<namelist group="Фильмы">
+		<title>"Поезд в Пусан"</title>
+		<years>2016г.</years>
+	</namelist>
+	<namelist group="Фильмы">
+		<title>"Т-34"</title>
+		<years>2019г.</years>
+	</namelist>
+	<namelist group="Сериалы">
+		<title>"Дневники вампиара"</title>
+		<years>2009г.</years>
+	</namelist>
+	<namelist group="Сериалы">
+		<title>"Ривердейл"</title>
+		<years>2017г.</years>
+	</namelist>
+	<namelist group="Сериалы">
+		<title>"Кадеты"</title>
+		<years>2006г.</years>
+	</namelist>
+	<namelist group="Сериалы">
+		<title>"Манифест"</title>
+		<years>2018г.</years>
+	</namelist>
+	<namelist group="Телешоу">
+		<title>"Обложка"</title>
+		<years>2020г.</years>
+	</namelist>
+	<namelist group="Телешоу">
+		<title>"Бой с герлс"</title>
+		<years>2019г.</years>
+	</namelist>
+	<namelist group="Телешоу">
+		<title>"Где логика?"</title>
+		<years>2015г.</years>
+	</namelist>
+	<namelist group="Игры">
+		<title>World of Tanks</title>
+		<years>2010г.</years>
+	</namelist>
+	<namelist group="Игры">
+		<title>Sims</title>
+		<years>2012г.</years>
+	</namelist>
+	<namelist group="Игры">
+		<title>Lost Arc</title>
+		<years>2018г.</years>
+	</namelist>
+</list>
