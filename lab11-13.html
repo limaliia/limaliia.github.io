@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Лабораторная №4-7</title>
+<script category="text/javascript">
+
+function loadXML(file) {
+ try { 
+ var req = new XMLHttpRequest();
+ req.open("GET", file, false);
+ req.send(null);
+ return req.responseXML;
+ }
+ catch (e) {
+
+ try {
+ var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+ xmlDoc.async = false;
+ xmlDoc.load(file);
+ return xmlDoc;
+ }
+ catch (e) {
+ alert(e.message);
+ return null;
+ }
+ }
+} 
+
+</script>
+<style>
+	.name {
+		display: block;
+        text-align: center;
+		padding: 20px;
+		transition: 1s;
+		border-radius: 15px;
+		background-color: linen;}
+
+	.name a {
+		font-size: 25px;
+		letter-spacing: 2px;
+		transition: 3s;
+		font-family: "Arial", sans-serif;
+		text-decoration: none;}
+
+	.name a:hover {
+		letter-spacing: 8px;
+		transition: 3s;
+	}
+
+	#namelist {
+		margin-top: 20px;
+		font-family: arial;
+	}
+
+</style>
+</head>
+<body>
+<div class="name" id="boxname">
+	<a name="Фильмы" href="#" onmouseover="names(this)" style="color: green; padding-right: 300px">Фильмы</a> <br /> 
+	<a name="Сериалы" href="#" onmouseover="names(this)" style="color: red; padding-right: 200px" >Сериалы</a> <br /> 
+	<a name="Телешоу" href="#" onmouseover="names(this)" style="color: blue; padding-right: 100px">Телешоу</a> <br /> 
+	<a name="Игры" href="#" onmouseover="names(this)" style="color: orangered; padding-right: 0px">Игры</a> <br /> 
+</div>
+
+<div>
+	<center>
+		<div id="namelist">
+			<div name="title0" id="title0"></div>
+			<div name="years0" id="years0"></div>
+	<br /> <br />
+			<div name="title1" id="title1"></div>
+			<div name="years1" id="years1"></div>
+	<br /> <br />
+			<div name="title2" id="title2"></div>
+			<div name="years2" id="years2"></div>
+	<br /> <br />
+			<div name="title3" id="title3"></div>
+			<div name="years3" id="years3"></div>
+	</center>
+</div>
+
+
+<script category="text/javascript">
+
+var xmlDoc = loadXML("https://limaliia.github.io/list.xml");
+
+function names(coloredLink) {
+ var group = coloredLink.name;
+ var k = 0;
+ var g = 4; 
+
+ for (var i = 0; i < xmlDoc.getElementsByTagName("namelist").length; i++) {
+
+ var title = "title" + k;
+ var years = "years" + k;
+
+ if (xmlDoc.getElementsByTagName("namelist")
+ [i].attributes.getNamedItem("group").nodeValue == group) { 
+
+
+ document.getElementById(title).innerHTML = xmlDoc.getElementsByTagName("title")[i].childNodes[0].nodeValue;
+ document.getElementById(years).innerHTML = xmlDoc.getElementsByTagName("years")[i].childNodes[0].nodeValue;
+
+ k++;
+
+   if (group == "Фильмы") {
+ 	namelist.style.color = "green";
+ 	boxname.style.backgroundColor = "palegreen";
+ 	}
+
+   if (group == "Сериалы") {
+ 	namelist.style.color = "red";
+	boxname.style.backgroundColor = "darksalmon";} 
+
+ 	if (group == "Телешоу") {
+ 	namelist.style.color = "blue";
+ 	boxname.style.backgroundColor = "aquamarine";}
+
+ 	if (group == "Игры") {
+ 	namelist.style.color = "orange";
+ 	boxname.style.backgroundColor = "lightsalmon";}
+ }
+
+}
+
+ for (var x = k; x < g; x++) {
+
+ title = "title" + x;
+ years = "years" + x;
+
+ document.getElementById(title).innerHTML = "";
+ document.getElementById(years).innerHTML = "";
+
+ }
+
+}
+</script>
+</body>
+</html>
