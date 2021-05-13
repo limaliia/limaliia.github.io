@@ -1,0 +1,2973 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "baseIris": [
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6"
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.74",
+      "translation": [
+        -104.74,
+        -81.48
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "0",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "15",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "14",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "34",
+      "type": "owl:Class"
+    },
+    {
+      "id": "36",
+      "type": "owl:Class"
+    },
+    {
+      "id": "31",
+      "type": "owl:Class"
+    },
+    {
+      "id": "43",
+      "type": "owl:Class"
+    },
+    {
+      "id": "53",
+      "type": "owl:Class"
+    },
+    {
+      "id": "56",
+      "type": "owl:Class"
+    },
+    {
+      "id": "63",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "66",
+      "type": "owl:Class"
+    },
+    {
+      "id": "69",
+      "type": "owl:Class"
+    },
+    {
+      "id": "70",
+      "type": "owl:Class"
+    },
+    {
+      "id": "78",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "85",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "38",
+      "type": "owl:Class"
+    },
+    {
+      "id": "28",
+      "type": "owl:Class"
+    },
+    {
+      "id": "86",
+      "type": "owl:Class"
+    },
+    {
+      "id": "62",
+      "type": "owl:Class"
+    },
+    {
+      "id": "72",
+      "type": "owl:Class"
+    },
+    {
+      "id": "13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "95",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "48",
+      "type": "owl:Class"
+    },
+    {
+      "id": "82",
+      "type": "owl:Class"
+    },
+    {
+      "id": "68",
+      "type": "owl:Class"
+    },
+    {
+      "id": "33",
+      "type": "owl:Class"
+    },
+    {
+      "id": "76",
+      "type": "owl:Class"
+    },
+    {
+      "id": "40",
+      "type": "owl:Class"
+    },
+    {
+      "id": "101",
+      "type": "owl:Class"
+    },
+    {
+      "id": "87",
+      "type": "owl:Class"
+    },
+    {
+      "id": "25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "59",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "37",
+      "type": "owl:Class"
+    },
+    {
+      "id": "23",
+      "type": "owl:Class"
+    },
+    {
+      "id": "89",
+      "type": "owl:Class"
+    },
+    {
+      "id": "92",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "67",
+      "type": "owl:Class"
+    },
+    {
+      "id": "84",
+      "type": "owl:Class"
+    },
+    {
+      "id": "134",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "138",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "42",
+      "type": "owl:Class"
+    },
+    {
+      "id": "46",
+      "type": "owl:Class"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "29",
+      "type": "owl:Class"
+    },
+    {
+      "id": "21",
+      "type": "owl:Class"
+    },
+    {
+      "id": "88",
+      "type": "owl:Class"
+    },
+    {
+      "id": "94",
+      "type": "owl:Class"
+    },
+    {
+      "id": "50",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "0",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#обучения",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "обучения"
+      },
+      "pos": [
+        126.94,
+        1819.91
+      ]
+    },
+    {
+      "id": "2",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        399.18,
+        -1146.7
+      ]
+    },
+    {
+      "id": "3",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#музыке",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "музыке"
+      },
+      "pos": [
+        2197.76,
+        -295.07
+      ]
+    },
+    {
+      "id": "5",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#людьми",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "людьми"
+      },
+      "pos": [
+        315.91,
+        259.93
+      ]
+    },
+    {
+      "id": "15",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2567.38,
+        378.06
+      ]
+    },
+    {
+      "id": "16",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#контроля",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "контроля"
+      },
+      "pos": [
+        -44.06,
+        1810.48
+      ]
+    },
+    {
+      "id": "17",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#папы",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "папы"
+      },
+      "pos": [
+        -369.39,
+        1420.82
+      ]
+    },
+    {
+      "id": "14",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -129.36,
+        -1235.24
+      ]
+    },
+    {
+      "id": "34",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#живописе",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "живописе"
+      },
+      "pos": [
+        2313.43,
+        -50.94
+      ]
+    },
+    {
+      "id": "36",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#качественно",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "качественно"
+      },
+      "pos": [
+        1769.14,
+        -710.77
+      ]
+    },
+    {
+      "id": "31",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#иметь",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "иметь"
+      },
+      "pos": [
+        1973.7,
+        516.02
+      ]
+    },
+    {
+      "id": "43",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#друга",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "друга"
+      },
+      "pos": [
+        -132.56,
+        1026.28
+      ]
+    },
+    {
+      "id": "53",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#лёгкая",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "лёгкая"
+      },
+      "pos": [
+        395.84,
+        1162.4
+      ]
+    },
+    {
+      "id": "56",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#быстро",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "быстро"
+      },
+      "pos": [
+        2001.6,
+        -591.36
+      ]
+    },
+    {
+      "id": "63",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2317.6,
+        1094.26
+      ]
+    },
+    {
+      "id": "66",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#нуждается",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "нуждается"
+      },
+      "pos": [
+        321.55,
+        -281.91
+      ]
+    },
+    {
+      "id": "69",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#престижная",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "престижная"
+      },
+      "pos": [
+        -291.97,
+        1105.76
+      ]
+    },
+    {
+      "id": "70",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#коммуникабельность",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "коммуникабельность"
+      },
+      "pos": [
+        1766.53,
+        1345.56
+      ]
+    },
+    {
+      "id": "78",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#техникой",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "техникой"
+      },
+      "pos": [
+        -257.5,
+        521.54
+      ]
+    },
+    {
+      "id": "1",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#специальность",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "специальность"
+      },
+      "pos": [
+        52.31,
+        1388.89
+      ]
+    },
+    {
+      "id": "85",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -544.61,
+        -289.68
+      ]
+    },
+    {
+      "id": "38",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#силу",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "силу"
+      },
+      "pos": [
+        2313.77,
+        678.72
+      ]
+    },
+    {
+      "id": "28",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#делать",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "делать"
+      },
+      "pos": [
+        1728.57,
+        -326
+      ]
+    },
+    {
+      "id": "86",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#внимание",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "внимание"
+      },
+      "pos": [
+        1452.13,
+        -598.11
+      ]
+    },
+    {
+      "id": "62",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#черты_характера",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "черты_характера"
+      },
+      "pos": [
+        1606.55,
+        975.1
+      ]
+    },
+    {
+      "id": "72",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#трудоустройства",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "трудоустройства"
+      },
+      "pos": [
+        -307.85,
+        -772.81
+      ]
+    },
+    {
+      "id": "13",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#профессию",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "профессию"
+      },
+      "pos": [
+        -78.29,
+        -990.03
+      ]
+    },
+    {
+      "id": "95",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -575.22,
+        -471.63
+      ]
+    },
+    {
+      "id": "10",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#интеллектуальные_способности",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "интеллектуальные_способности"
+      },
+      "pos": [
+        1229.09,
+        561.07
+      ]
+    },
+    {
+      "id": "48",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#производства",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "производства"
+      },
+      "pos": [
+        -325.01,
+        1596.4
+      ]
+    },
+    {
+      "id": "82",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#информацией",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "информацией"
+      },
+      "pos": [
+        -11.69,
+        208.83
+      ]
+    },
+    {
+      "id": "68",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#Абитуриент",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "Абитуриент"
+      },
+      "pos": [
+        687.44,
+        174.83
+      ]
+    },
+    {
+      "id": "33",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#психологические_особенности",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "психологические_особенности"
+      },
+      "pos": [
+        1208.91,
+        -330.87
+      ]
+    },
+    {
+      "id": "76",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#профессии",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "профессии"
+      },
+      "pos": [
+        -318.89,
+        -431.77
+      ]
+    },
+    {
+      "id": "40",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#управления",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "управления"
+      },
+      "pos": [
+        474.29,
+        1349.56
+      ]
+    },
+    {
+      "id": "101",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#координация",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "координация"
+      },
+      "pos": [
+        890.95,
+        -547.51
+      ]
+    },
+    {
+      "id": "87",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#пунктуальность",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "пунктуальность"
+      },
+      "pos": [
+        1568.38,
+        1376.35
+      ]
+    },
+    {
+      "id": "25",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#слух",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "слух"
+      },
+      "pos": [
+        2319.27,
+        376.77
+      ]
+    },
+    {
+      "id": "59",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#конструирования",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "конструирования"
+      },
+      "pos": [
+        217.91,
+        1027.69
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#специалистом",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "специалистом"
+      },
+      "pos": [
+        279.77,
+        -913.16
+      ]
+    },
+    {
+      "id": "11",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#языкам",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "языкам"
+      },
+      "pos": [
+        1155,
+        905.95
+      ]
+    },
+    {
+      "id": "37",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#выносливость",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "выносливость"
+      },
+      "pos": [
+        2157.85,
+        871.95
+      ]
+    },
+    {
+      "id": "23",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#мамы",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "мамы"
+      },
+      "pos": [
+        468.03,
+        1526.06
+      ]
+    },
+    {
+      "id": "89",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#настойчивость",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "настойчивость"
+      },
+      "pos": [
+        1375.32,
+        1273.04
+      ]
+    },
+    {
+      "id": "92",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#мышление",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "мышление"
+      },
+      "pos": [
+        1079.95,
+        -689.12
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#хочет",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "хочет"
+      },
+      "pos": [
+        132.83,
+        565.74
+      ]
+    },
+    {
+      "id": "67",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#знаниях",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "знаниях"
+      },
+      "pos": [
+        30.52,
+        -618.76
+      ]
+    },
+    {
+      "id": "84",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#исскуством",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "исскуством"
+      },
+      "pos": [
+        -198.99,
+        337.74
+      ]
+    },
+    {
+      "id": "134",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        828.84,
+        -815.86
+      ]
+    },
+    {
+      "id": "138",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -664.71,
+        1134.98
+      ]
+    },
+    {
+      "id": "19",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#математике",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "математике"
+      },
+      "pos": [
+        911.91,
+        504.41
+      ]
+    },
+    {
+      "id": "42",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#зарплата",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "зарплата"
+      },
+      "pos": [
+        -393.95,
+        1234.25
+      ]
+    },
+    {
+      "id": "46",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#исследований",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "исследований"
+      },
+      "pos": [
+        -203.81,
+        1735.78
+      ]
+    },
+    {
+      "id": "4",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#творческие_способности",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "творческие_способности"
+      },
+      "pos": [
+        1944.64,
+        -20.23
+      ]
+    },
+    {
+      "id": "29",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#может",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "может"
+      },
+      "pos": [
+        1461.41,
+        219.01
+      ]
+    },
+    {
+      "id": "21",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#понравится",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "понравится"
+      },
+      "pos": [
+        398.58,
+        1670.96
+      ]
+    },
+    {
+      "id": "88",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#целеустромлённость",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "целеустромлённость"
+      },
+      "pos": [
+        1918.83,
+        1187.66
+      ]
+    },
+    {
+      "id": "94",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#память",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "память"
+      },
+      "pos": [
+        1274.4,
+        -718.81
+      ]
+    },
+    {
+      "id": "50",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#подруги",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "подруги"
+      },
+      "pos": [
+        277.61,
+        1771.77
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "7",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "9",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "12",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "18",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "20",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "22",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "24",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "26",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "27",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "30",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "32",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "35",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "39",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "41",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "44",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "45",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "47",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "49",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "51",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "52",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "54",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "55",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "57",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "58",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "60",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "61",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "64",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "65",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "71",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "73",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "74",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "75",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "77",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "79",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "80",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "81",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "83",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "90",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "91",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "93",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "96",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "97",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "98",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "99",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "100",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "102",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "103",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "104",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "105",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "106",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "107",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "108",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "109",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "110",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "111",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "112",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "113",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "114",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "115",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "116",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "117",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "118",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "119",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "120",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "121",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "122",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "123",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "124",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "125",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "126",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "127",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "128",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "129",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "130",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "131",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "132",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "133",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "135",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "136",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "137",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "139",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "140",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "141",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "142",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "143",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "144",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "145",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "146",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "147",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "148",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "149",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "150",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "151",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "152",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "153",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "154",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "155",
+      "type": "rdfs:subClassOf"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "7",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#высококлассным",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "высококлассным"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "8",
+      "range": "2",
+      "pos": [
+        348.3,
+        -1047.19
+      ]
+    },
+    {
+      "id": "9",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#к",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "к"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "10",
+      "range": "11",
+      "pos": [
+        1243.18,
+        746.88
+      ]
+    },
+    {
+      "id": "12",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#получить",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "получить"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "13",
+      "range": "14",
+      "pos": [
+        -107.88,
+        -1132.11
+      ]
+    },
+    {
+      "id": "18",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#к",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "к"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "10",
+      "range": "19",
+      "pos": [
+        1081.08,
+        461.49
+      ]
+    },
+    {
+      "id": "20",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#которая",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "которая"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "1",
+      "range": "21",
+      "pos": [
+        249.32,
+        1516.93
+      ]
+    },
+    {
+      "id": "22",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#как_у",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "как_у"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "1",
+      "range": "23",
+      "pos": [
+        262.42,
+        1467.79
+      ]
+    },
+    {
+      "id": "24",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#тонкий",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "тонкий"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "25",
+      "range": "15",
+      "pos": [
+        2455.07,
+        377.48
+      ]
+    },
+    {
+      "id": "26",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#с_уклоном",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "с_уклоном"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "1",
+      "range": "16",
+      "pos": [
+        16.5,
+        1609.48
+      ]
+    },
+    {
+      "id": "27",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "28",
+      "range": "29",
+      "pos": [
+        1594.99,
+        -53.5
+      ]
+    },
+    {
+      "id": "30",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "31",
+      "range": "29",
+      "pos": [
+        1717.55,
+        367.51
+      ]
+    },
+    {
+      "id": "32",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "33",
+      "range": "29",
+      "pos": [
+        1335.16,
+        -55.93
+      ]
+    },
+    {
+      "id": "35",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "10",
+      "range": "29",
+      "pos": [
+        1345.25,
+        390.04
+      ]
+    },
+    {
+      "id": "39",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#с_уклоном",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "с_уклоном"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "1",
+      "range": "40",
+      "pos": [
+        269.11,
+        1374.55
+      ]
+    },
+    {
+      "id": "41",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#где",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "где"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "1",
+      "range": "42",
+      "pos": [
+        -185.88,
+        1322
+      ]
+    },
+    {
+      "id": "44",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#как_у",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "как_у"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "1",
+      "range": "43",
+      "pos": [
+        -54.36,
+        1207.17
+      ]
+    },
+    {
+      "id": "45",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#с_уклоном",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "с_уклоном"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "1",
+      "range": "46",
+      "pos": [
+        -67.93,
+        1576.95
+      ]
+    },
+    {
+      "id": "47",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#с_уклоном",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "с_уклоном"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "1",
+      "range": "48",
+      "pos": [
+        -134.1,
+        1512.73
+      ]
+    },
+    {
+      "id": "49",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#как_у",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "как_у"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "1",
+      "range": "50",
+      "pos": [
+        183.91,
+        1575.61
+      ]
+    },
+    {
+      "id": "51",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#как_у",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "как_у"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "1",
+      "range": "17",
+      "pos": [
+        -166.32,
+        1422.69
+      ]
+    },
+    {
+      "id": "52",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#которая",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "которая"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "1",
+      "range": "53",
+      "pos": [
+        207.62,
+        1237.52
+      ]
+    },
+    {
+      "id": "54",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "3",
+      "range": "4",
+      "pos": [
+        2036.38,
+        -194.93
+      ]
+    },
+    {
+      "id": "55",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "34",
+      "range": "4",
+      "pos": [
+        2134.11,
+        -56.62
+      ]
+    },
+    {
+      "id": "57",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#с_уклоном",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "с_уклоном"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "1",
+      "range": "0",
+      "pos": [
+        104.15,
+        1605.34
+      ]
+    },
+    {
+      "id": "58",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#с_уклоном",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "с_уклоном"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "1",
+      "range": "59",
+      "pos": [
+        141.86,
+        1203.82
+      ]
+    },
+    {
+      "id": "60",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "4",
+      "range": "29",
+      "pos": [
+        1703.02,
+        99.39
+      ]
+    },
+    {
+      "id": "61",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "62",
+      "range": "29",
+      "pos": [
+        1533.98,
+        597.06
+      ]
+    },
+    {
+      "id": "64",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#по_состоянию_здоровья",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "по_состоянию_здоровья"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "31",
+      "range": "38",
+      "pos": [
+        2164.97,
+        563.55
+      ]
+    },
+    {
+      "id": "65",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#в",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "в"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "66",
+      "range": "67",
+      "pos": [
+        151.22,
+        -437
+      ]
+    },
+    {
+      "id": "71",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#возможности",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "возможности"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "67",
+      "range": "72",
+      "pos": [
+        -158.24,
+        -660.76
+      ]
+    },
+    {
+      "id": "73",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#возможности",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "возможности"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "67",
+      "range": "13",
+      "pos": [
+        12.35,
+        -819.01
+      ]
+    },
+    {
+      "id": "74",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#физическую",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "физическую"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "37",
+      "range": "63",
+      "pos": [
+        2248.72,
+        998.41
+      ]
+    },
+    {
+      "id": "75",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#востребованности",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "востребованности"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "67",
+      "range": "76",
+      "pos": [
+        -156.69,
+        -540.19
+      ]
+    },
+    {
+      "id": "77",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#работать",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "работать"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "6",
+      "range": "78",
+      "pos": [
+        -69.81,
+        594.28
+      ]
+    },
+    {
+      "id": "79",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#работать",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "работать"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "6",
+      "range": "5",
+      "pos": [
+        280.12,
+        448.01
+      ]
+    },
+    {
+      "id": "80",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#как_стать",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "как_стать"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "67",
+      "range": "8",
+      "pos": [
+        193.59,
+        -735.95
+      ]
+    },
+    {
+      "id": "81",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#работать",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "работать"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "6",
+      "range": "82",
+      "pos": [
+        49.35,
+        385.51
+      ]
+    },
+    {
+      "id": "83",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#работать",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "работать"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "6",
+      "range": "84",
+      "pos": [
+        -51.91,
+        466.69
+      ]
+    },
+    {
+      "id": "90",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#в_моём_регионе",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "в_моём_регионе"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "76",
+      "range": "85",
+      "pos": [
+        -444.96,
+        -352.41
+      ]
+    },
+    {
+      "id": "91",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#проявлять",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "проявлять"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "33",
+      "range": "92",
+      "pos": [
+        1147.44,
+        -516.03
+      ]
+    },
+    {
+      "id": "93",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#проявлять",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "проявлять"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "33",
+      "range": "94",
+      "pos": [
+        1275.9,
+        -523.47
+      ]
+    },
+    {
+      "id": "96",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#в_мире",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "в_мире"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "76",
+      "range": "95",
+      "pos": [
+        -458.51,
+        -453.48
+      ]
+    },
+    {
+      "id": "97",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#с_интересом",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "с_интересом"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "28",
+      "range": "36",
+      "pos": [
+        1707.35,
+        -528.6
+      ]
+    },
+    {
+      "id": "98",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#с_интересом",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "с_интересом"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "28",
+      "range": "56",
+      "pos": [
+        1902.59,
+        -427.76
+      ]
+    },
+    {
+      "id": "99",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#проявлять",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "проявлять"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "33",
+      "range": "86",
+      "pos": [
+        1381.64,
+        -413.39
+      ]
+    },
+    {
+      "id": "100",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#проявлять",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "проявлять"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "33",
+      "range": "101",
+      "pos": [
+        1007.62,
+        -376.04
+      ]
+    },
+    {
+      "id": "102",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "53",
+      "range": "1",
+      "pos": [
+        233.46,
+        1277.92
+      ]
+    },
+    {
+      "id": "103",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "59",
+      "range": "1",
+      "pos": [
+        91.53,
+        1182.01
+      ]
+    },
+    {
+      "id": "104",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "56",
+      "range": "28",
+      "pos": [
+        1856.19,
+        -479.63
+      ]
+    },
+    {
+      "id": "105",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "36",
+      "range": "28",
+      "pos": [
+        1774.39,
+        -524.4
+      ]
+    },
+    {
+      "id": "106",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "17",
+      "range": "1",
+      "pos": [
+        -162.31,
+        1378.34
+      ]
+    },
+    {
+      "id": "107",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "16",
+      "range": "1",
+      "pos": [
+        -23.05,
+        1602.87
+      ]
+    },
+    {
+      "id": "108",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "50",
+      "range": "1",
+      "pos": [
+        154.28,
+        1602.29
+      ]
+    },
+    {
+      "id": "109",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "69",
+      "range": "1",
+      "pos": [
+        -119.83,
+        1247.33
+      ]
+    },
+    {
+      "id": "110",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "46",
+      "range": "1",
+      "pos": [
+        -102.34,
+        1554.96
+      ]
+    },
+    {
+      "id": "111",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "21",
+      "range": "1",
+      "pos": [
+        223.63,
+        1547
+      ]
+    },
+    {
+      "id": "112",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "43",
+      "range": "1",
+      "pos": [
+        -6.33,
+        1183.41
+      ]
+    },
+    {
+      "id": "113",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "42",
+      "range": "1",
+      "pos": [
+        -169.63,
+        1281.1
+      ]
+    },
+    {
+      "id": "114",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "48",
+      "range": "1",
+      "pos": [
+        -156.16,
+        1476.2
+      ]
+    },
+    {
+      "id": "115",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "40",
+      "range": "1",
+      "pos": [
+        268.57,
+        1330.57
+      ]
+    },
+    {
+      "id": "116",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "23",
+      "range": "1",
+      "pos": [
+        280.5,
+        1430.5
+      ]
+    },
+    {
+      "id": "117",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "67",
+      "range": "66",
+      "pos": [
+        195.46,
+        -475.81
+      ]
+    },
+    {
+      "id": "118",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "25",
+      "range": "31",
+      "pos": [
+        2127.58,
+        393.62
+      ]
+    },
+    {
+      "id": "119",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "0",
+      "range": "1",
+      "pos": [
+        67.63,
+        1621.5
+      ]
+    },
+    {
+      "id": "120",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#по_состоянию_здоровья",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "по_состоянию_здоровья"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "31",
+      "range": "37",
+      "pos": [
+        2074.24,
+        694.47
+      ]
+    },
+    {
+      "id": "121",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#по_состоянию_здоровья",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "по_состоянию_здоровья"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "31",
+      "range": "25",
+      "pos": [
+        2156.51,
+        457.97
+      ]
+    },
+    {
+      "id": "122",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "38",
+      "range": "31",
+      "pos": [
+        2135.4,
+        623.48
+      ]
+    },
+    {
+      "id": "123",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "37",
+      "range": "31",
+      "pos": [
+        2017.9,
+        718.93
+      ]
+    },
+    {
+      "id": "124",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "72",
+      "range": "67",
+      "pos": [
+        -129.52,
+        -726.63
+      ]
+    },
+    {
+      "id": "125",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "8",
+      "range": "67",
+      "pos": [
+        141.7,
+        -782.43
+      ]
+    },
+    {
+      "id": "126",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "76",
+      "range": "67",
+      "pos": [
+        -124.43,
+        -483.06
+      ]
+    },
+    {
+      "id": "127",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "13",
+      "range": "67",
+      "pos": [
+        -51.82,
+        -800.85
+      ]
+    },
+    {
+      "id": "128",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "82",
+      "range": "6",
+      "pos": [
+        105.15,
+        363.91
+      ]
+    },
+    {
+      "id": "129",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "78",
+      "range": "6",
+      "pos": [
+        -67.33,
+        537.97
+      ]
+    },
+    {
+      "id": "130",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "84",
+      "range": "6",
+      "pos": [
+        -21.02,
+        421.33
+      ]
+    },
+    {
+      "id": "131",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#проявлять",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "проявлять"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "62",
+      "range": "89",
+      "pos": [
+        1486.7,
+        1127.42
+      ]
+    },
+    {
+      "id": "132",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#проявлять",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "проявлять"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "62",
+      "range": "88",
+      "pos": [
+        1798.42,
+        1030.17
+      ]
+    },
+    {
+      "id": "133",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#движения",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "движения"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "101",
+      "range": "134",
+      "pos": [
+        855.41,
+        -701.04
+      ]
+    },
+    {
+      "id": "135",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#к",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "к"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "4",
+      "range": "34",
+      "pos": [
+        2137.04,
+        18.19
+      ]
+    },
+    {
+      "id": "136",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#к",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "к"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "4",
+      "range": "3",
+      "pos": [
+        2092.57,
+        -147.33
+      ]
+    },
+    {
+      "id": "137",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#большая",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "большая"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "42",
+      "range": "138",
+      "pos": [
+        -539.55,
+        1180.87
+      ]
+    },
+    {
+      "id": "139",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#проявлять",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "проявлять"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "62",
+      "range": "87",
+      "pos": [
+        1604.31,
+        1184.52
+      ]
+    },
+    {
+      "id": "140",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6#проявлять",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/4/untitled-ontology-6",
+      "label": {
+        "IRI-based": "проявлять"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "62",
+      "range": "70",
+      "pos": [
+        1722.68,
+        1151.88
+      ]
+    },
+    {
+      "id": "141",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "94",
+      "range": "33",
+      "pos": [
+        1219.8,
+        -533.91
+      ]
+    },
+    {
+      "id": "142",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "86",
+      "range": "33",
+      "pos": [
+        1338.52,
+        -461.72
+      ]
+    },
+    {
+      "id": "143",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "5",
+      "range": "6",
+      "pos": [
+        212.58,
+        399.56
+      ]
+    },
+    {
+      "id": "144",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "1",
+      "range": "6",
+      "pos": [
+        92.57,
+        977.32
+      ]
+    },
+    {
+      "id": "145",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "66",
+      "range": "68",
+      "pos": [
+        504.49,
+        -53.54
+      ]
+    },
+    {
+      "id": "146",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "29",
+      "range": "68",
+      "pos": [
+        1074.42,
+        196.92
+      ]
+    },
+    {
+      "id": "147",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "92",
+      "range": "33",
+      "pos": [
+        1093.5,
+        -493.89
+      ]
+    },
+    {
+      "id": "148",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "101",
+      "range": "33",
+      "pos": [
+        1035.63,
+        -425.06
+      ]
+    },
+    {
+      "id": "149",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "6",
+      "range": "68",
+      "pos": [
+        410.13,
+        370.29
+      ]
+    },
+    {
+      "id": "150",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "19",
+      "range": "10",
+      "pos": [
+        1054.75,
+        602.03
+      ]
+    },
+    {
+      "id": "151",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "11",
+      "range": "10",
+      "pos": [
+        1149.11,
+        728.58
+      ]
+    },
+    {
+      "id": "152",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "88",
+      "range": "62",
+      "pos": [
+        1767.98,
+        1083.58
+      ]
+    },
+    {
+      "id": "153",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "87",
+      "range": "62",
+      "pos": [
+        1550.37,
+        1178.79
+      ]
+    },
+    {
+      "id": "154",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "89",
+      "range": "62",
+      "pos": [
+        1441.07,
+        1086.58
+      ]
+    },
+    {
+      "id": "155",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "70",
+      "range": "62",
+      "pos": [
+        1673.58,
+        1174.49
+      ]
+    }
+  ]
+}
